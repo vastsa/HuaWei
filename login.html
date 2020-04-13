@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录 - 华为</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+  <div class="login">
+    <div class="header">
+      <a href="http://huawei.com/cn">
+        <img src="images/huawei_logo.png" alt="华为"></a>
+    </div>
+    <div class="main">
+      <div class="row">
+        <div class="content">
+          <div class="tit">
+            <h1>登录</h1>
+            <form action="https://www.huawei.com/cn/my-huawei/login?redirect=https%3a%2f%2fwww.huawei.com%2fcn%2f"
+              method="POST">
+              <div class="user">
+                <label for="userName">账号/邮箱<em class="red">*</em></label>
+                <input type="text" name="Username" id="userName" placeholder='请输入帐号/邮箱'>
+              </div>
+              <div class="powss">
+                <label for="password">密码<em class="red">*</em></label>
+                <input type="password" name="password" id="password" placeholder='请输入密码'>
+                <div id="divErrMsg" class="error_message"></div>
+              </div>
+              <a href="https://uniportal.huawei.com/uniportal/modifyInfo.do?actionFlag=toGetPassword&nls=zh_CN"
+                class="forfot-powss">忘记密码</a>
+              <div class="login-btn">
+                <input class="an_login" type="submit" value="登录">
+              </div>
+              <div class="an-create">
+                <a class="an-register"
+                  href="https://uniportal.huawei.com/accounts/register.do?method=toRegister&regsiterMethod=byEmail&nls=zh_CN&appurl=https%3a%2f%2fwww.huawei.com%2fcn%2f">立即注册
+                  ></a>
+              </div>
+            </form>
+          </div>
+          <div class="through">
+            <span>通过其它方式登录:</span>
+            <div class="ico">
+              <img src="images/1.png" alt="">
+            </div>
+            <div class="help">
+              <span class="wenhao"></span>
+              <a href="#">获取更多帮助?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

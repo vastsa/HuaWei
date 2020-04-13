@@ -1,0 +1,101 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+/* 公共样式 */
+body{
+  text-align: center;
+  font-family: Microsoft YaHei, Arial, Helvetica, sans-serif !important;
+  
+}
+.red{
+  color: red;
+}
+/* 头部 */
+.header{
+  margin: auto;
+  height: 135px;
+  line-height: 135px;
+}
+/* 主体 */
+.main{
+  margin: auto;
+  width: 1128px;
+  height: 770px;
+}
+.content{
+  margin: auto;
+  width: 361.5px;
+  border-radius: 5px;
+  padding: 36px 10%;
+  height: 620px;
+  box-shadow:2px 0 46px rgba(0, 0, 0, 0.18);
+}
+.content .tit{
+  width: 361px;
+}
+.content h1{
+  text-align: left;
+  clear: both;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 12px;
+}
+input{
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #d4d4d4;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-top: 5px;
+  font-size:20px;
+}
+label{
+  text-align: left;
+  display: block;
+  margin: 30px 15px 0px 0px;
+  font-weight: normal;
+}
+.forfot-powss{
+  margin-top: 10px;
+  text-decoration: underline;
+  display: block;
+  color: #282828;
+  text-align: left;
+}
+.an_login{
+ text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  margin:40px 20px 15px 10px;
+  color: #fff;
+  background: #f66f6a;
+}
+.an_login:hover{
+  background-color: #a54b4a;
+}
+.an-create{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d4d4d4;
+  font-weight: 550;
+}
+.an-register{
+  color: #282828;
+  font-size: 18px;
+}
+.through{
+  margin: 20px;
+}
+.through span{
+  font-size: 20px;
+}
+.help span{
+  background-image: url(../images/svg-sprite-1.png);
+}
+.help{
+  float: left;
+  font-size: 14px;
+}
